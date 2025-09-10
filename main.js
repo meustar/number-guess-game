@@ -74,7 +74,7 @@ function play() {
 
   if (chances == 0) {
     gameOver = true;
-    resultArea.textContent = "저런... G A M E O V E R !!";
+    resultArea.textContent = `GAME OVER!! 정답은 ${computerNum}였습니다.`;
   }
 
   if (gameOver == true) {
