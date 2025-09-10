@@ -95,6 +95,7 @@ function reset() {
   //결과창이 바뀐다.
   resultArea.textContent = "결과";
   userValueList = [];
+  history = [];
 }
 
 pickRandomNum();
